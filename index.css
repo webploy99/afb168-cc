@@ -1,0 +1,109 @@
+.posi{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.nav-logo{
+    max-width: 200px;
+}
+.items{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.items a{
+    color: #7C7C7C;
+    text-decoration: none;
+}
+.items a:hover{
+    color: #3493F9;
+}
+/* respon sidebar */
+.items{
+    line-height: 50px;
+}
+.btn-hover1{
+    color: white;
+    border-radius: 50px;
+    background-color: #FF9794;
+    text-shadow: 2px 3px 10px black;
+    border: #F3726F solid 1px;
+}
+.btn-hover1:hover{
+    color: white;
+    border-radius: 50px;
+    background-color: #FF9794;
+    text-shadow: 2px 3px 10px black;
+    border: #F3726F solid 1px;
+}
+/* body information */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: blue;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+.link-page{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.link-page:hover{
+    color: #2B90D2;
+}
+.link-extra{
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+.link-extra:hover{
+    color: #2B90D2;
+}
+.a-link{
+    text-decoration: none;
+    font-size: 20px;
+}
+.a-link:hover{
+    text-decoration: underline;
+}
+/* footer1 */
+.link-foot a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.link-foot a:hover{
+    text-decoration: underline;
+}
